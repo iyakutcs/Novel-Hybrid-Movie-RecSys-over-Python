@@ -1,7 +1,5 @@
-# -*- coding: utf-8 -*-
+#In this part we compute genres and directors contribution to the intersection size ('intersize')
 
-#Finally do not forget removing redundant rows
-#Finally reorder for example group methods etc. for readability
 import numpy as np
 import pandas as pd
 df = pd.read_csv(r"C:\Users\iyaku\OneDrive\Masaüstü\PythonTrain\PyRecs/movie_genres.dat", delimiter='\t', encoding='ISO-8859-1') 
